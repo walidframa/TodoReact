@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,59 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.app li{
+  list-style: none;
+  padding: 10px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
 }
+.app li:nth-child(odd){
+  background-color: white;
+}
+.app ul{
+  padding-left: 0;
+}
+
+ul li .row{
+  float: right;
+}
+ul li .row i{
+  margin-left: 15px;
+  cursor: pointer;
+}
+ul li .row i:hover{
+  color: crimson;
+}
+.app{
+  width: 20%;
+margin: 20px auto;
+border: 1px solid #f1f1f1;
+padding: 20px;
+background-color: #f1f1f1;
+border-radius: 11px;
+box-shadow: 0px 1px 15px -2px;
+}
+.app h1{
+  text-align: center;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.app input[type="text"]{
+  padding: 6px;
+  border: 1px solid;
+  width: 77%;
+  font-family: 'Patrick Hand', cursive;
+  font-size:20px;
+}
+.app input[name="editValue"]{
+  width: 77%;
+}
+.app button{
+  padding: 7px 24px;
+  border: 1px solid;
+  background-color: white;
+  font-size: 20px;
+}
+
